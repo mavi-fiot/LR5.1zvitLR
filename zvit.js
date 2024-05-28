@@ -51,6 +51,14 @@ function displayContent(labNumber) {
         createSubMenu(5);
     }
 
+    if (labNumber === 5.1) {
+        labContent = `
+            <h3>Лабораторна робота № 5.1</h3>
+            <p>Скористайтесь меню змісту звіту</p> 
+        `;
+        createSubMenu(5.1);
+    }
+
     if (labNumber === 6) {
         labContent = `
             <h3>Лабораторна робота № 6</h3>
@@ -124,6 +132,13 @@ function createSubMenu(labNumber) {
         displaySubMenuContent("HTML-код ФОРМИ");
     };
     menu.appendChild(button5);
+
+    let button51 = document.createElement("button");
+    button5.textContent = "HTML-код ФОРМИ";
+    button5.onclick = function() {
+        displaySubMenuContent("HTML-код ФОРМИ");
+    };
+    menu.appendChild(button51);
 
     let button6 = document.createElement("button");
     button6.textContent = "HTML-код ЗОБРАЖЕННЯ";
@@ -412,7 +427,69 @@ else if (labNumber === 5) {
     menu.appendChild(button510);
 }
 
+else if (labNumber === 5.1) {
+    
+    let button511 = document.createElement("button");
+    button511.textContent = "Постановка задачі ЛР № 5.1";
+    button511.onclick = function() {
+        displaySubMenuContent("Постановка задачі ЛР № 5.1");
+    };
+    menu.appendChild(button511);
+
+    let button512 = document.createElement("button");
+    button512.textContent = "Завдання № 2";
+    button512.onclick = function() {
+        displaySubMenuContent("Завдання № 2");
+    };
+    menu.appendChild(button512);
+
+    let button513 = document.createElement("button");
+    button513.textContent = "Завдання № 4";
+    button513.onclick = function() {
+        displaySubMenuContent("Завдання № 4");
+    };
+    menu.appendChild(button513);
+
+    let button514 = document.createElement("button");
+    button514.textContent = "Завдання № 6";
+    button514.onclick = function() {
+        displaySubMenuContent("Завдання № 6");
+    };
+    menu.appendChild(button514);
+
+    let button515 = document.createElement("button");
+    button515.textContent = "Завдання № 8";
+    button515.onclick = function() {
+        displaySubMenuContent("Завдання № 8");
+    };
+    menu.appendChild(button515);
+
+    let button516 = document.createElement("button");
+    button516.textContent = "Завдання № 9";
+    button516.onclick = function() {
+        displaySubMenuContent("Завдання № 9");
+    };
+    menu.appendChild(button516);
+
+    let button517 = document.createElement("button");
+    button517.textContent = "Завдання № 10";
+    button517.onclick = function() {
+        displaySubMenuContent("Завдання № 10");
+    };
+    menu.appendChild(button517);
+
+    let button518 = document.createElement("button");
+    button518.textContent = "ВИСНОВКИ за ЛР №5.1";
+    button518.onclick = function() {
+        displaySubMenuContent("ВИСНОВКИ за ЛР №5.1");
+    };
+    menu.appendChild(button518);
+
+    }
+
 }
+
+
 
 
 
@@ -1343,8 +1420,148 @@ function displaySubMenuContent(buttonText) {
                                                 
                 `;
                 break;
+
+            case "Постановка задачі ЛР № 5.1":
+            contentHTML = `
+                <h3>Постановка задачі ЛР № 5.1</h3>
+                                                                        
+                <p>Тема:   ОБ'ЄКТ. МЕТОДИ ОБ'ЄКТА. МАСИВ ОБ'ЄКТІВ. ДЕСТРУКТУРИЗАЦІЯ ОБ'ЄКТІВ. 
+                CALLBACK. СТРІЛОЧНІ ФУНКЦІЇ. СТРІЛОЧНІ ФУНКЦІЇ ЯК КОЛБЕКИ</p>
+        
+                <p>Мета: придбати практичні навички роботи з об'єктами. Методи об'єкта. Callback. <br>
+                Стрілочні функції. Стрілочні функції як колбеки. Реалізація програм засовами мови JAVASCRIPT</p>
+        
+                <h3>Місце розташування ЛР №5.1</h3>
+                <p>Розміщено на GitHub</p>
+                <p><a href="https://github.com/mavi-fiot/LR5zvitLR" target="_blank">Звіт.</a> <a href="https://mavi-fiot.github.io/LR5zvitLR/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/mavi-fiot/LR5WebStore" target="_blank">Проект.</a> <a href="https://mavi-fiot.github.io/LR5WebStore/" target="_blank">Сайт проекту.</a></p>
+                <p><a href="https://github.com/mavi-fiot/JSLR5" target="_blank">Виконання завдань.</a> <a href="https://mavi-fiot.github.io/JSLR5/" target="_blank">Сайт виконання завдання за пунктом 6.</a></p>
+                                                                                                   
+                `;
+                break;
+
+
+            case "Завдання № 2":
+            contentHTML = `
+                <h3>Текст завдання № 2</h3>
+                                                                
+                <p>Напишіть функцію getProductDetails, яка приймає ідентифікатор товару productId та дві 
+                колбек-функції successCallback та errorCallback.</p>
+                <p>Функція getProductDetails повинна отримати деталі про вказаний товар та передати 
+                їх у successCallback.</p>
+                <p>У випадку якщо товар не знайдено, викликається errorCallback і передається 
+                повідомлення про помилку.</p>
+                                                                                
+                `;
+                break;     
                                 
-                         
+            case "Завдання № 4":
+            contentHTML = `
+                <h3>Текст завдання № 4</h3>
+                                                                        
+                <p>З об'єкту concerts отримати масив, який буде містити лише імена міст.</p>
+                <p>З масиву потрібно прибрати міста, в яких концерт  уже пройшов і   
+                відсортувати їх у хронологічному порядку.</p>
+                <p>Результат вивести у консоль.</p>
+                <p>  Очікуваний результат ["Одеса", "Умань", "Харків"]<br>
+                Застосувати стрілочні функції<br>
+                const concerts = {<br>
+                    Київ: new Date("2020-04-01"),<br>
+                    Умань: new Date("2025-07-02"),<br>
+                    Вінниця: new Date("2020-04-21"),<br>
+                    Одеса: new Date("2025-03-15"),<br>
+                    Хмельницький: new Date("2020-04-18"),<br>
+                    Харків: new Date("2025-07-10"),<br>
+                };<br>
+                </p>
+
+                                                                                        
+                `;
+                break;     
+                                                                
+            case "Завдання № 6":
+            contentHTML = `
+                <h3>Текст завдання № 6</h3>
+                                                        
+                <p>Напишіть функцію, яка приймає массив об'єктів і повертає новий массив об'єктів, 
+                у якому є знижка на  30 % на всі медикаменти ціна, яких перевищує 300 грн у масиві.</p>
+                <p>Надайте ід для кожного медикамента.</p>
+                <p>const medicines = [<br>
+                    { name: "Noshpa", price: 170 },<br>
+                    { name: "Analgin", price: 55 },<br>
+                    { name: "Quanil", price: 310 },<br>
+                    { name: "Alphacholine", price: 390 },<br>
+                  ];<br>
+                </p>
+                                                                        
+                `;
+                break;     
+
+            case "Завдання № 8":
+            contentHTML = `
+                <h3>Текст завдання № 8</h3>
+                                                        
+                <p>Напиши функцію конструктор Storage який створює об'єкти для управління 
+                складом товарів.</p>
+                <p>При виклику отримуватиме один агрумент - початковий масив товарів, 
+                і записувати їх у властивість items.</p>
+
+                <p>Додай методи класу:<br>   
+                getItems() - повертайте масив товарів <br>  
+                addItems(item) - отримує новий товар та додає його до поточних <br>  
+                removeItem(item) - отримує товар і, якщо він є, видаляє його з поточних  <br>
+                const arr = ["apple", "banana", "mango"]<br>
+                </p>
+
+                                                                        
+                `;
+                break;     
+                        
+            case "Завдання № 9":
+            contentHTML = `
+                <h3>Текст завдання № 9</h3>
+                                                                
+                <p>Поверніть об'єкт, в якому вказано кількість тегів.</p>
+                <p>Очікуваний результат {js: 3, nodejs: 3, html: 2, css: 2, react: 2}<br>
+                const tweets = [<br>
+                   { id: "000", likes: 5, tags: ["js", "nodejs"] },<br>
+                   { id: "001", likes: 2, tags: ["html", "css"] },<br>
+                   { id: "002", likes: 17, tags: ["html", "js", "nodejs"] },<br>
+                   { id: "003", likes: 8, tags: ["css", "react"] },<br>
+                   { id: "004", likes: 0, tags: ["js", "nodejs", "react"] },<br>
+                   ];<br>
+               </p>
+
+                                                                                
+                `;
+                break;     
+                                                        
+            case "Завдання № 10":
+            contentHTML = `
+                <h3>Текст завдання № 10</h3>
+                                                
+                <p>Напишіть функцію checkBrackets(str) яка приймає рядок жс коду 
+                (someFn)  і перевіряє правильність закриття дужок () {} [].</p>
+
+                <p>Якщо рядок містить коректний код функція повертає true.<br>
+                В іншому випадку повертає false.
+                </p>
+                                                                                                                
+                `;
+                break;     
+
+
+
+            case "ВИСНОВКИ за ЛР №5.1":
+            contentHTML = `
+                <h3>ВИСНОВКИ за ЛР №5.1</h3>
+                                        
+                <p>В ході виконання лабораторної роботи набуто практичних навичок роботи  
+                з об'єктами, з використанням методівоб'єкта, Callback, Стрілочних функцій та реалізацією
+                програм засовами мови JAVASCRIPT.</p>
+                                                        
+                `;
+                break;                         
         
                 
         default:

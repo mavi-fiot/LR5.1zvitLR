@@ -1451,6 +1451,19 @@ function displaySubMenuContent(buttonText) {
                 їх у successCallback.</p>
                 <p>У випадку якщо товар не знайдено, викликається errorCallback і передається 
                 повідомлення про помилку.</p>
+
+                <p>Код:</p>   
+                <br>
+                <img src="5121.jpg" alt="lr51_5121"> 
+
+                <p>Результат виконання (successCallback):</p>   
+                <br>
+                <img src="5122.jpg" alt="lr51_5122"> 
+
+                <p>Результат виконання (errorCallback):</p>   
+                <br>
+                <img src="5123.jpg" alt="lr51_5123"> 
+                                                            
                                                                                 
                 `;
                 break;     
@@ -1475,6 +1488,9 @@ function displaySubMenuContent(buttonText) {
                 };<br>
                 </p>
 
+                <p>Код та результат виконання:</p>   
+                <br>
+                <img src="5141.jpg" alt="lr51_5141"> 
                                                                                         
                 `;
                 break;     
@@ -1493,6 +1509,10 @@ function displaySubMenuContent(buttonText) {
                     { name: "Alphacholine", price: 390 },<br>
                   ];<br>
                 </p>
+
+                <p>Код та результат виконання:</p>   
+                <br>
+                <img src="5161.jpg" alt="lr51_5161"> 
                                                                         
                 `;
                 break;     
@@ -1513,6 +1533,9 @@ function displaySubMenuContent(buttonText) {
                 const arr = ["apple", "banana", "mango"]<br>
                 </p>
 
+                <p>Код та результат виконання:</p>   
+                <br>
+                <img src="5181.jpg" alt="lr51_5181"> 
                                                                         
                 `;
                 break;     
@@ -1532,6 +1555,11 @@ function displaySubMenuContent(buttonText) {
                    ];<br>
                </p>
 
+               
+               <p>Код та результат виконання:</p>   
+               <br>
+               <img src="5191.jpg" alt="lr51_5191"> 
+
                                                                                 
                 `;
                 break;     
@@ -1546,6 +1574,10 @@ function displaySubMenuContent(buttonText) {
                 <p>Якщо рядок містить коректний код функція повертає true.<br>
                 В іншому випадку повертає false.
                 </p>
+
+                <p>Код та результат виконання:</p>   
+                <br>
+                <img src="5101.jpg" alt="lr51_5101"> 
                                                                                                                 
                 `;
                 break;     

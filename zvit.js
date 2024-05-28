@@ -338,14 +338,6 @@ else if (labNumber === 4) {
     };
     menu.appendChild(button404);
 
-    // let button405 = document.createElement("button");
-    // button405.textContent = "Альтернативне рішення";
-    // button405.onclick = function() {
-    //     displaySubMenuContent("Альтернативне рішення");
-    // };
-    // menu.appendChild(button405);
-
-
     let button406 = document.createElement("button");
     button406.textContent = "ВИСНОВКИ до ЛР №4";
     button406.onclick = function() {
@@ -1429,7 +1421,7 @@ function displaySubMenuContent(buttonText) {
                 CALLBACK. СТРІЛОЧНІ ФУНКЦІЇ. СТРІЛОЧНІ ФУНКЦІЇ ЯК КОЛБЕКИ</p>
         
                 <p>Мета: придбати практичні навички роботи з об'єктами. Методи об'єкта. Callback. <br>
-                Стрілочні функції. Стрілочні функції як колбеки. Реалізація програм засовами мови JAVASCRIPT</p>
+                Стрілочні функції. Стрілочні функції як колбеки. Реалізація програм засобами мови JAVASCRIPT</p>
         
                 <h3>Місце розташування ЛР №5.1</h3>
                 <p>Розміщено на GitHub</p>

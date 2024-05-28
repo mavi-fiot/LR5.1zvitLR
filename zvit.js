@@ -1433,9 +1433,8 @@ function displaySubMenuContent(buttonText) {
         
                 <h3>Місце розташування ЛР №5.1</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/mavi-fiot/LR5zvitLR" target="_blank">Звіт.</a> <a href="https://mavi-fiot.github.io/LR5zvitLR/" target="_blank">Сайт звіту.</a></p>
-                <p><a href="https://github.com/mavi-fiot/LR5WebStore" target="_blank">Проект.</a> <a href="https://mavi-fiot.github.io/LR5WebStore/" target="_blank">Сайт проекту.</a></p>
-                <p><a href="https://github.com/mavi-fiot/JSLR5" target="_blank">Виконання завдань.</a> <a href="https://mavi-fiot.github.io/JSLR5/" target="_blank">Сайт виконання завдання за пунктом 6.</a></p>
+                <p><a href="https://github.com/mavi-fiot/LR5.1zvitLR" target="_blank">Звіт.</a> <a href="https://mavi-fiot.github.io/LR5.1zvitLR/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/mavi-fiot/webLR5.1" target="_blank">Виконання завдань.</a> <a href="https://mavi-fiot.github.io/webLR5.1/" target="_blank">Сайт виконання завдання № 2</a></p>
                                                                                                    
                 `;
                 break;
@@ -1451,6 +1450,8 @@ function displaySubMenuContent(buttonText) {
                 їх у successCallback.</p>
                 <p>У випадку якщо товар не знайдено, викликається errorCallback і передається 
                 повідомлення про помилку.</p>
+
+                <p><a href="https://mavi-fiot.github.io/webLR5.1/" target="_blank">Сайт виконання завдання № 2</a></p>
 
                 <p>Код:</p>   
                 <br>
